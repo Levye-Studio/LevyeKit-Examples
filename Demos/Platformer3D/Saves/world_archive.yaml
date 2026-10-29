@@ -1,0 +1,96 @@
+snapshot:
+  version: 1
+  game:
+    version: 1
+    player:
+      position:
+        x: 7.9190311431884766
+        y: 0.89999997615814209
+        z: -2.5474522113800049
+      velocity:
+        x: 0
+        y: 0
+        z: 0
+      facingAngle: 2.4184873104095459
+      grounded: true
+    camera:
+      yaw: -0.78299987316131592
+      pitch: 0.35215616226196289
+      distance: 8
+    progress:
+      currentLevel: 1
+      unlockedLevel: 1
+      checkpointActivated: false
+      completed: false
+      respawnPosition:
+        x: 0
+        y: 0.89999997615814209
+        z: 0
+  level:
+    id: 1
+    name: First Steps
+    spawn:
+      x: 0
+      y: 0.89999997615814209
+      z: 0
+    checkpoint:
+      x: 0
+      y: 2.4000000953674316
+      z: 8
+    finish:
+      x: 0
+      y: 4.4000000953674316
+      z: 18
+    platforms:
+      - position:
+          x: 5.5
+          y: -0.5
+          z: 0
+        size:
+          x: 12
+          y: 1
+          z: 12
+        color:
+          r: 130
+          g: 130
+          b: 130
+          a: 255
+      - position:
+          x: 0
+          y: 0.5
+          z: 8
+        size:
+          x: 4
+          y: 1
+          z: 4
+        color:
+          r: 0
+          g: 121
+          b: 241
+          a: 255
+      - position:
+          x: 3
+          y: 1.5
+          z: 13
+        size:
+          x: 4
+          y: 1
+          z: 4
+        color:
+          r: 102
+          g: 191
+          b: 255
+          a: 255
+      - position:
+          x: 0
+          y: 2.5
+          z: 18
+        size:
+          x: 4
+          y: 1
+          z: 4
+        color:
+          r: 0
+          g: 228
+          b: 48
+          a: 255

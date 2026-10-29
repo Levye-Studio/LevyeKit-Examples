@@ -1,0 +1,26 @@
+data:
+  version: 1
+  player:
+    position:
+      x: 0
+      y: 0.89999997615814209
+      z: 0
+    velocity:
+      x: 0
+      y: 0
+      z: 0
+    facingAngle: -0.81128412485122681
+    grounded: true
+  camera:
+    yaw: 0
+    pitch: 0.34999999403953552
+    distance: 14
+  progress:
+    currentLevel: 2
+    unlockedLevel: 2
+    checkpointActivated: false
+    completed: false
+    respawnPosition:
+      x: 0
+      y: 0.89999997615814209
+      z: 0

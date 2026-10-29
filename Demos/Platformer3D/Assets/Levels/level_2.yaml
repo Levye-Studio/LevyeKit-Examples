@@ -1,0 +1,82 @@
+version: 1
+level:
+  id: 2
+  name: The Crossing
+  spawn:
+    x: 0
+    y: 0.89999997615814209
+    z: 0
+  checkpoint:
+    x: -2
+    y: 3.4000000953674316
+    z: 12
+  finish:
+    x: 0
+    y: 5.4000000953674316
+    z: 24
+  platforms:
+    - position:
+        x: 0
+        y: -0.5
+        z: 0
+      size:
+        x: 8
+        y: 1
+        z: 8
+      color:
+        r: 130
+        g: 130
+        b: 130
+        a: 255
+    - position:
+        x: 2
+        y: 0.5
+        z: 6
+      size:
+        x: 3
+        y: 1
+        z: 3
+      color:
+        r: 0
+        g: 121
+        b: 241
+        a: 255
+    - position:
+        x: -2
+        y: 1.5
+        z: 12
+      size:
+        x: 3
+        y: 1
+        z: 3
+      color:
+        r: 102
+        g: 191
+        b: 255
+        a: 255
+    - position:
+        x: 2
+        y: 2.5
+        z: 18
+      size:
+        x: 3
+        y: 1
+        z: 3
+      color:
+        r: 200
+        g: 122
+        b: 255
+        a: 255
+    - position:
+        x: 0
+        y: 3.5
+        z: 24
+      size:
+        x: 4
+        y: 1
+        z: 4
+      color:
+        r: 0
+        g: 228
+        b: 48
+        a: 255
