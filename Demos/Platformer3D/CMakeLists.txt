@@ -13,11 +13,15 @@ if(WIN32 AND NOT CMAKE_CONFIGURATION_TYPES AND NOT CMAKE_BUILD_TYPE)
     set(CMAKE_BUILD_TYPE Debug CACHE STRING "Build type" FORCE)
 endif()
 
-# LevyeKit checkout used to create this project.
-set(
-    LEVYE_ROOT
-    "/Users/nesmy/Projects/LevyeKit"
-)
+# Locate LevyeKit relative to this demo.
+# Allow an explicit override for other directory layouts.
+if(NOT DEFINED LEVYE_ROOT OR LEVYE_ROOT STREQUAL "")
+    get_filename_component(
+        LEVYE_ROOT
+        "${CMAKE_CURRENT_SOURCE_DIR}/../../../LevyeKit"
+        ABSOLUTE
+    )
+endif()
 
 if(NOT EXISTS "${LEVYE_ROOT}/CMakeLists.txt")
     message(
